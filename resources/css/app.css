@@ -1,0 +1,40 @@
+
+
+
+
+
+.w{
+    color: #999999;
+}
+
+.div-1{
+    background-color: #ad8fff;
+}
+.div-2{
+    background-color: hsl(256, 100%, 68%);
+}
+
+.div-3{
+    background-color: hsl(256, 100%, 58%);
+}
+
+.div-4{
+    background-color: green;
+}
+
+.half{
+    height: 50%;
+}
+
+.nav {
+    background-color: #292929;
+}
+
+.title{
+    color: #cfcfcf;
+}
+
+.wrapper{
+    background-color: #999999;
+    height: 1024px;
+}

@@ -1,0 +1,100 @@
+.back{
+    background-color: #2c2626;
+}
+
+.ball{
+    height: 40px;
+    width: 40px;
+    
+
+    animation-name: balls;
+    animation-duration: 3s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running; 
+    
+}
+
+.ball:hover{
+    animation-play-state: paused;
+}
+
+.light{
+    color: hsl(143, 79%, 63%);
+}
+
+.screen{
+    background-color: #0a0b3a;
+}
+
+.game-box{
+    height:70%;
+}
+
+
+
+#wrapper{
+    height: 1024px;
+}
+
+
+
+
+/* PSUEDO CLASSES */
+
+.ball:hover{
+    animation-play-state: paused;
+}
+
+/*  ANIMATIONS  */
+
+.a-ch-r{
+    color: hsl(143, 79%, 63%);
+    -webkit-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
+    -moz-transition: color 1s ease-out;
+    transition: color 1s ease-out;
+}
+
+.a-ch-r:hover{
+    color: #ff00d4;
+}
+
+
+@keyframes balls{
+    0% {
+        background-color: #ff00d4;
+        height: 40px;
+        width: 40px;
+        
+
+    }
+
+    50%{
+        
+        background-color: #060aec;
+        width: 120px;
+     
+
+    }
+
+    80%{
+        border-radius: 6rem;
+        background: #06ec19;
+        height: 180px;
+        width: 60px;
+    }
+
+    100%{
+        border-radius: 0px;
+        background-color: #ff00d4;
+        height: 40px;
+        width: 40px;
+
+    }
+
+
+}
